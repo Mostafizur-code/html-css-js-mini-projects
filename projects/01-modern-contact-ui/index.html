@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Get in touch with us. Reach out for any inquiries, support, or feedback. We'd love to hear from you.">
+  <title>Contact Us | Modern Business</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Inter (clean, modern) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<section class="contact-section">
+  <div class="section-header">
+    <h2>Let’s Connect</h2>
+    <p>We’d love to hear from you — send us a message and we’ll respond shortly.</p>
+  </div>
+
+  <div class="contact-grid">
+    <!-- LEFT SIDE: Contact Form -->
+    <div class="form-card">
+      <form id="contactForm" action="#" method="post" novalidate>
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" id="fullname" name="fullname" placeholder="Full Name *" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" name="email" placeholder="Email Address *" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-phone-alt"></i>
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+        </div>
+        <div class="input-group">
+          <i class="fas fa-tag"></i>
+          <input type="text" id="subject" name="subject" placeholder="Subject *" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-comment-dots"></i>
+          <textarea id="message" name="message" placeholder="Your message... *" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div id="formFeedback" class="form-message" style="display: none;"></div>
+      </form>
+    </div>
+
+    <!-- RIGHT SIDE: Contact Information & Socials -->
+    <div class="info-card">
+      <h3 style="font-weight: 600; margin-bottom: 1rem; font-size: 1.5rem;">Contact info</h3>
+      <p style="color: #5b6e8c; margin-bottom: 1.6rem;">Reach out through any channel below.</p>
+      <div class="info-details">
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="info-text">
+            <h4>Our Office</h4>
+            <p>123 Innovation Avenue, Suite 400<br>San Francisco, CA 94103</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div class="info-text">
+            <h4>Phone</h4>
+            <p><a href="tel:+1-800-555-1234">+1 (800) 555-1234</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-envelope-open-text"></i></div>
+          <div class="info-text">
+            <h4>Email</h4>
+            <p><a href="mailto:hello@moderncontact.com">hello@moderncontact.com</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="social-links">
+        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Map Embed (below main grid) -->
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019301558132!2d-122.4194154846812!3d37.77492977975954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809b3a6e1d2d%3A0x6b4d5f9f9cbb1e9f!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1698262436012!5m2!1sen!2sus" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Google Map of our office location">
+    </iframe>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
