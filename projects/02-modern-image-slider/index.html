@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Nebula Slider | Premium Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider-container" id="premiumSlider">
+    <div class="slider">
+        <div class="slides-wrapper" id="slidesWrapper">
+            <!-- Slide 1 -->
+            <div class="slide" data-index="0">
+                <img class="slide-image" data-src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80" alt="Mountain reflection" loading="lazy">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>Alpine Majesty</h2>
+                        <p>Discover untouched landscapes where serenity meets adventure. Immerse yourself in pure nature.</p>
+                        <a href="#" class="btn-slide">Explore →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide" data-index="1">
+                <img class="slide-image" data-src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80" alt="Misty forest" loading="lazy">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>Enchanted Woods</h2>
+                        <p>Ancient trees, golden mist, and the whisper of the wild. A journey into nature's sanctuary.</p>
+                        <a href="#" class="btn-slide">Discover →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide" data-index="2">
+                <img class="slide-image" data-src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80" alt="Lake and hills" loading="lazy">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>Horizon Dreams</h2>
+                        <p>Where the sky kisses the earth. Experience panoramic tranquility at dawn's first light.</p>
+                        <a href="#" class="btn-slide">View gallery →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide" data-index="3">
+                <img class="slide-image" data-src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80" alt="Sunbeams in forest" loading="lazy">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>Golden Canopy</h2>
+                        <p>Sunlight filtering through ancient oaks. A moment of stillness, a memory for life.</p>
+                        <a href="#" class="btn-slide">Learn more →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide" data-index="4">
+                <img class="slide-image" data-src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80" alt="Starry night" loading="lazy">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>Celestial Night</h2>
+                        <p>Under a blanket of stars. Cosmic wonder and endless inspiration await.</p>
+                        <a href="#" class="btn-slide">Join the journey →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-arrow arrow-left" id="prevBtn" aria-label="Previous slide">‹</button>
+        <button class="nav-arrow arrow-right" id="nextBtn" aria-label="Next slide">›</button>
+        
+        <!-- Dots container -->
+        <div class="dots-container" id="dotsContainer"></div>
+        
+        <!-- Progress bar (timeline) -->
+        <div class="progress-bar-wrapper">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

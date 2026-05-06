@@ -7,13 +7,13 @@ This repository is designed to improve frontend skills, build real-world UI comp
 
 ## 📂 Projects
 
-| #  | Project Name      | Status         |
-| -- | ----------------- | -------------- |
-| 01 | Modern Contact UI | ✅ Completed    |
-| 02 | Image Slider      | 🔄 Coming Soon |
-| 03 | Login Form        | 🔄 Coming Soon |
-| 04 | Navbar UI         | 🔄 Coming Soon |
-| 05 | Modal Popup       | 🔄 Coming Soon |
+| #  | Project Name                 | Status               |
+| -- | -----------------            | --------------       |
+| 01 | Modern Contact UI            | ✅ Completed         |
+| 02 | Image Slider                 | ✅ Completed         |
+| 03 | Login Form                   | 🔄 Coming Soon       |
+| 04 | Navbar UI                    | 🔄 Coming Soon       |
+| 05 | Modal Popup                  | 🔄 Coming Soon       |
 
 👉 More projects will be added regularly...
 
